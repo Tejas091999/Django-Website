@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+    <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixid=MnwzODYwMzd8MHwxfHNlYXJjaHw3fHxvZmZpY2V8ZW58MHx8fHwxNjY5OTgwMzA3&ixlib=rb-4.0.3" style="width:100vw ; height:90vh" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>About Us</h5>
+                <p>"Cream Ice," as it was called, appeared regularly at the table of Charles I during the 17th century. France was introduced to similar frozen desserts in 1553 by the Italian Catherine de Medici when she became the wife of Henry II of France. It wasn't until 1660 that ice cream was made available to the general public..</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock body %}
