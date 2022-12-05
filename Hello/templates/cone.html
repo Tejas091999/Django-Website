@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Services{% endblock title %}
+{% block body %}
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1523474707545-c37ce0809960?ixlib=rb-4.0.3&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb" style="width:100vw ; height:90vh" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cone IceCream</h5>
+                <p>
+                    These little beauties are the most popular in the ice cream world and have a taste that instantly reignites memories of your childhood. Light and flaky with just the right amount of sugary sweetness, the wafer cone goes well with just about every ice cream flavor ever made..
+                </p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock body %}
