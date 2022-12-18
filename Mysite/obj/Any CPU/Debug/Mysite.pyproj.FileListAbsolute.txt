@@ -1,0 +1,2 @@
+C:\Users\ADMIN\Desktop\food menu\Mysite\Mysite\obj\Any CPU\Debug\Mysite.pyproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\food menu\Mysite\Mysite\obj\Any CPU\Debug\Mysite.pyproj.CoreCompileInputs.cache
